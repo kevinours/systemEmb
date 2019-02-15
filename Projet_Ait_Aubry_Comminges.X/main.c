@@ -1,13 +1,8 @@
-/*
- * File:   main.c
- * Author: Guillias
- *
- * Created on 15 février 2019, 11:20
- */
 
-
-#include <xc.h>
+#include "heat.h"
+#include "config.h"
 
 void main(void) {
+    watch_heat();
     return;
 }
