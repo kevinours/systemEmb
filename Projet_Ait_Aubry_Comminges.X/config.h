@@ -33,7 +33,12 @@
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 
+const int BASE_HEAT = 30;
 const int CHANGE_HEAT = 4;
+const int MAX_HEAT = 38;
+const int MIN_HEAT = 22;
+
+bool led0, led1, led2, led3, led4;
 
 #ifdef	__cplusplus
 extern "C" {
