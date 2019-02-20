@@ -2,15 +2,28 @@
     begin
         process is
         begin
+
+        RC0 <= '1' ;
+        RC1 <= '1' ;
+        
         RA0 <= 3500 mV;
+        wait for 5000 ms;
+        RA0 <= 2500 mV;
+
         wait for 2000 ms;
-        RA0 <= 3125 mV;
+        RC0 <= '0' ;
+        wait for 500 ms;
+        RC0 <= '1' ;
         wait for 2000 ms;
-        RA0 <= 2875 mV;
+
+        RA0 <= 2000 mV;
+        RC1 <= '0' ;
+        wait for 500 ms;
+        RC1 <= '1' ;
         wait for 2000 ms;
-        RA0 <= 2125 mV;
-        wait for 2000 ms;
-        RA0 <= 1800 mV;
-        wait for 2000 ms;
+
+        RA0 <= 2500 mV;
+
+
     end process;
  end testbench;

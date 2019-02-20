@@ -22,7 +22,7 @@
 
 volatile float tension = 0.0f;
 volatile float temp;
-volatile float heat;
+volatile float temp_cible = 30;
 
 #define _XTAL_FREQ 4000000 // clock 4Mhz
 #define VREF_plus 5.0f // vref + = Vcc tension d'alimentation
@@ -31,6 +31,7 @@ volatile float heat;
 
 void watch_heat(void);
 void change_heat(void);
+void check_heat(float temp);
 void light(float temp);
 #endif	/* XC_HEADER_TEMPLATE_H */
 

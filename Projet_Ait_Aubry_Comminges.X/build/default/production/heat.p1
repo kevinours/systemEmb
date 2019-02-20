@@ -1,0 +1,567 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1432 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1432: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"2497
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2497: extern volatile __bit RC0 __attribute__((address(0x38)));
+[v _RC0 `Vb ~T0 @X0 0 e@56 ]
+"2500
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2500: extern volatile __bit RC1 __attribute__((address(0x39)));
+[v _RC1 `Vb ~T0 @X0 0 e@57 ]
+"1494
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1494: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"2542
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2542: extern volatile __bit RD0 __attribute__((address(0x40)));
+[v _RD0 `Vb ~T0 @X0 0 e@64 ]
+"2545
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2545: extern volatile __bit RD1 __attribute__((address(0x41)));
+[v _RD1 `Vb ~T0 @X0 0 e@65 ]
+"1320
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1320: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"2082
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2082: extern volatile unsigned char ADCON1 __attribute__((address(0x09F)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"1154
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1154: extern volatile unsigned char ADCON0 __attribute__((address(0x01F)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"1160
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1160:     struct {
+[s S47 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :2 `uc 1 ]
+[n S47 . ADON . GO_nDONE CHS ADCS ]
+"1167
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1167:     struct {
+[s S48 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S48 . . GO CHS0 CHS1 CHS2 ADCS0 ADCS1 ]
+"1176
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1176:     struct {
+[s S49 :2 `uc 1 :1 `uc 1 ]
+[n S49 . . nDONE ]
+"1180
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1180:     struct {
+[s S50 :2 `uc 1 :1 `uc 1 ]
+[n S50 . . GO_DONE ]
+"1159
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1159: typedef union {
+[u S46 `S47 1 `S48 1 `S49 1 `S50 1 ]
+[n S46 . . . . . ]
+"1185
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1185: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x01F)));
+[v _ADCON0bits `VS46 ~T0 @X0 0 e@31 ]
+"1147
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1147: extern volatile unsigned char ADRESH __attribute__((address(0x01E)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"2075
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2075: extern volatile unsigned char ADRESL __attribute__((address(0x09E)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@158 ]
+"35 ./heat.h
+[; ;./heat.h: 35: void light(float temp);
+[v _light `(v ~T0 @X0 0 ef1`f ]
+"2509 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2509: extern volatile __bit RC4 __attribute__((address(0x3C)));
+[v _RC4 `Vb ~T0 @X0 0 e@60 ]
+"2512
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2512: extern volatile __bit RC5 __attribute__((address(0x3D)));
+[v _RC5 `Vb ~T0 @X0 0 e@61 ]
+"2515
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2515: extern volatile __bit RC6 __attribute__((address(0x3E)));
+[v _RC6 `Vb ~T0 @X0 0 e@62 ]
+"2518
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2518: extern volatile __bit RC7 __attribute__((address(0x3F)));
+[v _RC7 `Vb ~T0 @X0 0 e@63 ]
+"2506
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2506: extern volatile __bit RC3 __attribute__((address(0x3B)));
+[v _RC3 `Vb ~T0 @X0 0 e@59 ]
+"9 ./heat.h
+[p x FOSC = HS ]
+"10
+[p x WDTE = OFF ]
+"11
+[p x PWRTE = OFF ]
+"12
+[p x CP = OFF ]
+"13
+[p x BOREN = ON ]
+"14
+[p x LVP = OFF ]
+"15
+[p x CPD = OFF ]
+"16
+[p x WRT = ON ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"629
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 629: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"636
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 636: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"643
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 643: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"650
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 650: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"727
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 727: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"734
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 734: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"805
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 805: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"812
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 812: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"882
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 882: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"889
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 889: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"896
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 896: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"903
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 903: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"961
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 961: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1056
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1056: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1063
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1063: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1070
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1070: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1077
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1077: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1084
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1084: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1091
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1091: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1149
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1149: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1156
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1156: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1252
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1252: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1322
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1322: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1372
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1372: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1434
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1434: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1496
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1496: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1558
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1558: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1615
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1615: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1677
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1677: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1710
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1710: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1744
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1744: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1806
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1806: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1813
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1813: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1820
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1820: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"1989
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 1989: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2070
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2070: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2077
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2077: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2084
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2084: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2137
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2137: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2144
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2144: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2151
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2151: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2158
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2158: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2165
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2165: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2210
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f877.h: 2210: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"23 ./heat.h
+[; ;./heat.h: 23: volatile float tension = 0.0f;
+[v _tension `Vf ~T0 @X0 1 e ]
+[i _tension
+-> .0.0 `f
+]
+"24
+[; ;./heat.h: 24: volatile float temp;
+[v _temp `Vf ~T0 @X0 1 e ]
+"25
+[; ;./heat.h: 25: volatile float temp_cible = 30;
+[v _temp_cible `Vf ~T0 @X0 1 e ]
+[i _temp_cible
+-> -> 30 `i `f
+]
+"3 heat.c
+[; ;heat.c: 3: void change_heat(void) {
+[v _change_heat `(v ~T0 @X0 1 ef ]
+{
+[e :U _change_heat ]
+[f ]
+"4
+[; ;heat.c: 4:     TRISC = 0b00000011;
+[e = _TRISC -> -> 3 `i `uc ]
+"5
+[; ;heat.c: 5:     if (RC0 == 1) {
+[e $ ! == -> _RC0 `i -> 1 `i 91  ]
+{
+"6
+[; ;heat.c: 6:         if(temp_cible >= 26){
+[e $ ! >= _temp_cible -> -> 26 `i `f 92  ]
+{
+"7
+[; ;heat.c: 7:             temp_cible -=4;
+[e =- _temp_cible -> -> 4 `i `Vf ]
+"8
+[; ;heat.c: 8:         }
+}
+[e :U 92 ]
+"9
+[; ;heat.c: 9:     }
+}
+[e :U 91 ]
+"10
+[; ;heat.c: 10:     if (RC1 == 1) {
+[e $ ! == -> _RC1 `i -> 1 `i 93  ]
+{
+"11
+[; ;heat.c: 11:         if(temp_cible <= 34){
+[e $ ! <= _temp_cible -> -> 34 `i `f 94  ]
+{
+"12
+[; ;heat.c: 12:             temp_cible +=4;
+[e =+ _temp_cible -> -> 4 `i `Vf ]
+"13
+[; ;heat.c: 13:         }
+}
+[e :U 94 ]
+"14
+[; ;heat.c: 14:     }
+}
+[e :U 93 ]
+"15
+[; ;heat.c: 15: }
+[e :UE 90 ]
+}
+"17
+[; ;heat.c: 17: void check_heat(float temp) {
+[v _check_heat `(v ~T0 @X0 1 ef1`f ]
+{
+[e :U _check_heat ]
+[v _temp `f ~T0 @X0 1 r1 ]
+[f ]
+"18
+[; ;heat.c: 18:     TRISD = 0b00000000;
+[e = _TRISD -> -> 0 `i `uc ]
+"19
+[; ;heat.c: 19:     if(temp > temp_cible +1 ){
+[e $ ! > _temp + _temp_cible -> -> 1 `i `f 96  ]
+{
+"20
+[; ;heat.c: 20:         RD0 = 1;
+[e = _RD0 -> -> 1 `i `b ]
+"21
+[; ;heat.c: 21:         RD1 = 0;
+[e = _RD1 -> -> 0 `i `b ]
+"22
+[; ;heat.c: 22:     }
+}
+[e :U 96 ]
+"23
+[; ;heat.c: 23:     if(temp == temp_cible){
+[e $ ! == _temp _temp_cible 97  ]
+{
+"24
+[; ;heat.c: 24:         RD0 = 0;
+[e = _RD0 -> -> 0 `i `b ]
+"25
+[; ;heat.c: 25:         RD1 = 0;
+[e = _RD1 -> -> 0 `i `b ]
+"26
+[; ;heat.c: 26:     }
+}
+[e :U 97 ]
+"27
+[; ;heat.c: 27:     if(temp < temp_cible -1){
+[e $ ! < _temp - _temp_cible -> -> 1 `i `f 98  ]
+{
+"28
+[; ;heat.c: 28:         RD0 = 0;
+[e = _RD0 -> -> 0 `i `b ]
+"29
+[; ;heat.c: 29:         RD1 = 1;
+[e = _RD1 -> -> 1 `i `b ]
+"30
+[; ;heat.c: 30:     }
+}
+[e :U 98 ]
+"31
+[; ;heat.c: 31: }
+[e :UE 95 ]
+}
+"33
+[; ;heat.c: 33: void watch_heat(void) {
+[v _watch_heat `(v ~T0 @X0 1 ef ]
+{
+[e :U _watch_heat ]
+[f ]
+"34
+[; ;heat.c: 34:     unsigned long ValeurADC = 0L;
+[v _ValeurADC `ul ~T0 @X0 1 a ]
+[e = _ValeurADC -> -> 0 `l `ul ]
+"36
+[; ;heat.c: 36:     TRISA = 0xFF;
+[e = _TRISA -> -> 255 `i `uc ]
+"37
+[; ;heat.c: 37:     ADCON1 = 0b10001110;
+[e = _ADCON1 -> -> 142 `i `uc ]
+"38
+[; ;heat.c: 38:     ADCON0 = 0b01000001;
+[e = _ADCON0 -> -> 65 `i `uc ]
+"39
+[; ;heat.c: 39:     ADCON0bits.GO_DONE = 1;
+[e = . . _ADCON0bits 3 1 -> -> 1 `i `uc ]
+"40
+[; ;heat.c: 40:     while (ADCON0bits.GO_DONE == 1);
+[e $U 100  ]
+[e :U 101 ]
+[e :U 100 ]
+[e $ == -> . . _ADCON0bits 3 1 `i -> 1 `i 101  ]
+[e :U 102 ]
+"41
+[; ;heat.c: 41:     ValeurADC = ADRESH << 8;
+[e = _ValeurADC -> -> << -> _ADRESH `i -> 8 `i `l `ul ]
+"42
+[; ;heat.c: 42:     ValeurADC += ADRESL;
+[e =+ _ValeurADC -> _ADRESL `ul ]
+"43
+[; ;heat.c: 43:     tension = (5.0f - 0.0f) * ValeurADC / 1024;
+[e = _tension / * - -> .5.0 `f -> .0.0 `f -> _ValeurADC `f -> -> 1024 `i `f ]
+"44
+[; ;heat.c: 44:     temp = (tension * 8) + 10;
+[e = _temp + * _tension -> -> 8 `i `f -> -> 10 `i `f ]
+"45
+[; ;heat.c: 45:     light(temp_cible);
+[e ( _light (1 _temp_cible ]
+"46
+[; ;heat.c: 46:     change_heat();
+[e ( _change_heat ..  ]
+"47
+[; ;heat.c: 47:     check_heat(temp);
+[e ( _check_heat (1 _temp ]
+"50
+[; ;heat.c: 50: }
+[e :UE 99 ]
+}
+"52
+[; ;heat.c: 52: void light(float temp) {
+[v _light `(v ~T0 @X0 1 ef1`f ]
+{
+[e :U _light ]
+[v _temp `f ~T0 @X0 1 r1 ]
+[f ]
+"53
+[; ;heat.c: 53:     if (temp == 22 ) {
+[e $ ! == _temp -> -> 22 `i `f 104  ]
+{
+"54
+[; ;heat.c: 54:         RC4 = 0;
+[e = _RC4 -> -> 0 `i `b ]
+"55
+[; ;heat.c: 55:         RC5 = 0;
+[e = _RC5 -> -> 0 `i `b ]
+"56
+[; ;heat.c: 56:         RC6 = 0;
+[e = _RC6 -> -> 0 `i `b ]
+"57
+[; ;heat.c: 57:         RC7 = 0;
+[e = _RC7 -> -> 0 `i `b ]
+"59
+[; ;heat.c: 59:         RC3 = 1;
+[e = _RC3 -> -> 1 `i `b ]
+"60
+[; ;heat.c: 60:     }
+}
+[e :U 104 ]
+"61
+[; ;heat.c: 61:     if (temp == 26) {
+[e $ ! == _temp -> -> 26 `i `f 105  ]
+{
+"62
+[; ;heat.c: 62:         RC3 = 0;
+[e = _RC3 -> -> 0 `i `b ]
+"63
+[; ;heat.c: 63:         RC5 = 0;
+[e = _RC5 -> -> 0 `i `b ]
+"64
+[; ;heat.c: 64:         RC6 = 0;
+[e = _RC6 -> -> 0 `i `b ]
+"65
+[; ;heat.c: 65:         RC7 = 0;
+[e = _RC7 -> -> 0 `i `b ]
+"67
+[; ;heat.c: 67:         RC4 = 1;
+[e = _RC4 -> -> 1 `i `b ]
+"68
+[; ;heat.c: 68:     }
+}
+[e :U 105 ]
+"69
+[; ;heat.c: 69:     if (temp == 30 ) {
+[e $ ! == _temp -> -> 30 `i `f 106  ]
+{
+"70
+[; ;heat.c: 70:         RC3 = 0;
+[e = _RC3 -> -> 0 `i `b ]
+"71
+[; ;heat.c: 71:         RC4 = 0;
+[e = _RC4 -> -> 0 `i `b ]
+"72
+[; ;heat.c: 72:         RC6 = 0;
+[e = _RC6 -> -> 0 `i `b ]
+"73
+[; ;heat.c: 73:         RC7 = 0;
+[e = _RC7 -> -> 0 `i `b ]
+"75
+[; ;heat.c: 75:         RC5 = 1;
+[e = _RC5 -> -> 1 `i `b ]
+"76
+[; ;heat.c: 76:     }
+}
+[e :U 106 ]
+"77
+[; ;heat.c: 77:     if (temp == 34) {
+[e $ ! == _temp -> -> 34 `i `f 107  ]
+{
+"78
+[; ;heat.c: 78:         RC3 = 0;
+[e = _RC3 -> -> 0 `i `b ]
+"79
+[; ;heat.c: 79:         RC4 = 0;
+[e = _RC4 -> -> 0 `i `b ]
+"80
+[; ;heat.c: 80:         RC5 = 0;
+[e = _RC5 -> -> 0 `i `b ]
+"81
+[; ;heat.c: 81:         RC7 = 0;
+[e = _RC7 -> -> 0 `i `b ]
+"83
+[; ;heat.c: 83:         RC6 = 1;
+[e = _RC6 -> -> 1 `i `b ]
+"84
+[; ;heat.c: 84:     }
+}
+[e :U 107 ]
+"85
+[; ;heat.c: 85:     if (temp == 38) {
+[e $ ! == _temp -> -> 38 `i `f 108  ]
+{
+"86
+[; ;heat.c: 86:         RC3 = 0;
+[e = _RC3 -> -> 0 `i `b ]
+"87
+[; ;heat.c: 87:         RC4 = 0;
+[e = _RC4 -> -> 0 `i `b ]
+"88
+[; ;heat.c: 88:         RC5 = 0;
+[e = _RC5 -> -> 0 `i `b ]
+"89
+[; ;heat.c: 89:         RC6 = 0;
+[e = _RC6 -> -> 0 `i `b ]
+"91
+[; ;heat.c: 91:         RC7 = 1;
+[e = _RC7 -> -> 1 `i `b ]
+"92
+[; ;heat.c: 92:     }
+}
+[e :U 108 ]
+"93
+[; ;heat.c: 93: }
+[e :UE 103 ]
+}
