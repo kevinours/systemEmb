@@ -6,24 +6,41 @@
         RC0 <= '1' ;
         RC1 <= '1' ;
         
-        RA0 <= 3500 mV;
-        wait for 5000 ms;
-        RA0 <= 2500 mV;
+        RA0 <= 3500 mV; // 38°
+        wait for 3000 ms;
 
+        RA0 <= 2500 mV; // 30°
         wait for 2000 ms;
+
         RC0 <= '0' ;
         wait for 500 ms;
-        RC0 <= '1' ;
-        wait for 2000 ms;
+        RC0 <= '1' ; //temp cible = 26
+        wait for 2000 ms; 
 
-        RA0 <= 2000 mV;
+        RA0 <= 2000 mV; //26°
+        wait for 2000 ms; 
+
         RC1 <= '0' ;
         wait for 500 ms;
         RC1 <= '1' ;
+        wait for 1000 ms;
+        RC1 <= '0' ;
+        wait for 500 ms;
+        RC1 <= '1' ;
+        wait for 2000 ms; //temp cible = 34
+
+        RA0 <= 3000 mV; //34°
+        wait for 2000 ms; 
+
+        RA0 <= 2750 mV;
         wait for 2000 ms;
 
-        RA0 <= 2500 mV;
-
+        RA0 <= 3000 mV; //34°
+        wait for 2000 ms; 
+        RC1 <= '0' ;
+        wait for 500 ms;
+        RC1 <= '1' ;
+        wait for 2000 ms; //temp cible = 38
 
     end process;
  end testbench;

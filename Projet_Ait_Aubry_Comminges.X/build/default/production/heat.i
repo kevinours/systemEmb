@@ -1662,12 +1662,12 @@ void light(float temp);
 
 void change_heat(void) {
     TRISC = 0b00000011;
-    if (RC0 == 1) {
+    if (RC0 == 0) {
         if(temp_cible >= 26){
             temp_cible -=4;
         }
     }
-    if (RC1 == 1) {
+    if (RC1 == 0) {
         if(temp_cible <= 34){
             temp_cible +=4;
         }
@@ -1680,7 +1680,7 @@ void check_heat(float temp) {
         RD0 = 1;
         RD1 = 0;
     }
-    if(temp == temp_cible){
+    if(temp <= temp_cible +0.3 || temp <= temp_cible +0.3){
         RD0 = 0;
         RD1 = 0;
     }

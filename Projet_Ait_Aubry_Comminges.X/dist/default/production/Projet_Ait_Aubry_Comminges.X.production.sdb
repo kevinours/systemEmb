@@ -114,12 +114,6 @@
 [v light@temp temp `f  1 p 4 0 ]
 "93
 } 0
-"17
-[v _check_heat check_heat `(v  1 e 1 0 ]
-{
-[v check_heat@temp temp `f  1 p 4 66 ]
-"31
-} 0
 "4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
 {
@@ -127,7 +121,13 @@
 [v ___fleq@ff2 ff2 `d  1 p 4 4 ]
 "12
 } 0
-"3 C:\Users\Abdel\Documents\systemEmb\Projet_Ait_Aubry_Comminges.X\heat.c
+"17 C:\Users\Abdel\Documents\systemEmb\Projet_Ait_Aubry_Comminges.X\heat.c
+[v _check_heat check_heat `(v  1 e 1 0 ]
+{
+[v check_heat@temp temp `f  1 p 4 66 ]
+"31
+} 0
+"3
 [v _change_heat change_heat `(v  1 e 1 0 ]
 {
 "15

@@ -288,8 +288,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;heat.c: 4:     TRISC = 0b00000011;
 [e = _TRISC -> -> 3 `i `uc ]
 "5
-[; ;heat.c: 5:     if (RC0 == 1) {
-[e $ ! == -> _RC0 `i -> 1 `i 91  ]
+[; ;heat.c: 5:     if (RC0 == 0) {
+[e $ ! == -> _RC0 `i -> 0 `i 91  ]
 {
 "6
 [; ;heat.c: 6:         if(temp_cible >= 26){
@@ -307,8 +307,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 91 ]
 "10
-[; ;heat.c: 10:     if (RC1 == 1) {
-[e $ ! == -> _RC1 `i -> 1 `i 93  ]
+[; ;heat.c: 10:     if (RC1 == 0) {
+[e $ ! == -> _RC1 `i -> 0 `i 93  ]
 {
 "11
 [; ;heat.c: 11:         if(temp_cible <= 34){
@@ -354,8 +354,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e :U 96 ]
 "23
-[; ;heat.c: 23:     if(temp == temp_cible){
-[e $ ! == _temp _temp_cible 97  ]
+[; ;heat.c: 23:     if(temp <= temp_cible +0.3 || temp <= temp_cible +0.3){
+[e $ ! || <= -> _temp `d + -> _temp_cible `d .0.3 <= -> _temp `d + -> _temp_cible `d .0.3 97  ]
 {
 "24
 [; ;heat.c: 24:         RD0 = 0;
